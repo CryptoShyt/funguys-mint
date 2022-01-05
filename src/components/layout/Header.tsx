@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+// import styles from "../../../public/styles.scss";
 
 const Container = styled.div`
   display: flex;
@@ -12,6 +13,7 @@ const Title = styled.h1`
   color: #efc046;
   font-size: 3rem;
   text-transform: uppercase;
+  font-family: synthemesc;
 `;
 
 const Divider = styled.div`
@@ -23,7 +25,7 @@ const Divider = styled.div`
 export function Header() {
   return (
     <Container>
-      <Title>Mint Your Warriors</Title>
+      <Title>Mint Your FunGuys</Title>
       <Divider />
     </Container>
   );

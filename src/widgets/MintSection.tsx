@@ -1,10 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { Header } from '../components/layout/Header';
+import { Header } from "../components/layout/Header";
 
-import cover from '../assets/cover.png';
-import { MintSummary } from '../components/MintSummary';
-import { ReactNode } from 'react';
+// import cover from "../assets/cover.png";
+import gif from "../assets/gif.gif";
+import { MintSummary } from "../components/MintSummary";
+import { ReactNode } from "react";
 
 const Section = styled.div`
   margin-top: 4rem;
@@ -43,7 +44,7 @@ export function MintSection({
       <Header />
       <Section>
         <Cover>
-          <img src={cover} alt="You Warriors" />
+          <img src={gif} alt="You FunGuys" />
         </Cover>
         <MintSummary
           totalAvailable={totalAvailable}

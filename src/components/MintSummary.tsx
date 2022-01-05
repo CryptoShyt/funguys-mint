@@ -1,10 +1,12 @@
-import styled from 'styled-components';
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import { ReactNode } from 'react';
+import styled from "styled-components";
+import ProgressBar from "react-bootstrap/ProgressBar";
+import { ReactNode } from "react";
 
 const Text = styled.span`
   font-size: 1.5rem;
-  font-weight: bold;
+  // font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: synthemesc;
 `;
 
 const Card = styled.div`
